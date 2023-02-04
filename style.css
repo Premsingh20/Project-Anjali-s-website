@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F9F5ed;
+}
+
+/* nav bar */
+nav {
+    display: flex;
+    height: 15vh;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    align-items: center;
+    margin-left: 170px;
+    display: flex;
+    gap: 35px;
+    
+}
+
+nav ul li {
+    list-style: none;
+    font-weight: 400;
+}
+
+nav a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.small-button {
+    background-color: #3b855b;
+    color: #F9F5ed;
+    border: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.small-button:hover {
+    background-color: #4ca874;
+    font-size: 15px;
+    border: 2px solid #3b855b;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.list-items:hover {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+nav div .small-button a {
+    text-decoration: none;
+    background-color: #3b855b;
+    color: #F9F5ed;
+    font-size: 15px;
+}
+
+/* Hero section */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    height: 85%;
+}
+
+.left-section {
+    width: 40%;
+}
+
+.left-section h1 {
+    font-size: 60px;
+}
+
+.left-section p {
+    margin: 5% 0;
+}
+
+.large-button {
+    background-color: #FF0000;
+    color: #F9F5ed;
+    border: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.fa-brands {
+    color: #F9F5ed;
+    background-color: #FF0000;
+    align-items: center;
+}
+
+.main-name {
+    color: #3b855b;
+}
+
+/* Right Section */
+
+.right-section {
+    width: 60%;
+    padding-left: 7%;
+}
+
+.firstimg {
+    padding: 10px;
+}
+
+.secondimg {
+    padding: 10px;
+}
+
+.thirdimg {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+main .left-section a {
+    text-decoration: none;
+    background-color: #FF0000;
+    color: #F9F5ed;
+    font-size: 17px;
+}
+
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    margin: 220px;
+    gap: 100px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+
+footer ul li i {
+    padding: 4px;
+    border-radius: 4px;
+}
+
